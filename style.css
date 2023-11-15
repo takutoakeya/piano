@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(246, 241, 241);
+}
+
+#wrap {
+  margin: auto;
+  /* width: 200%; */
+}
+
+header {
+  padding: 40px;
+  background-color: #000;
+  color: white;
+}
+
+header h1 {
+  margin-right: auto;
+}
+
+header ul {
+  margin-top: 20px;
+  display: flex;
+}
+
+header li {
+  width: auto;
+  margin-right: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: rgb(245, 249, 248);
+}
+
+ul {
+  padding: 0;
+}
+
+/*#POINT h2 {
+  position: relative;
+  list-style-type: none;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  background: #121111;
+  vertical-align: middle;
+  color: #f1f4f7;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#POINT p {
+  font-size: 1.2rem;
+}
+
+/* #POINT h2::before {
+  display:inline-block; 
+  vertical-align: middle;
+  content:'';
+  width:1em;
+  height: 1em;
+  background: #bc62a4;
+  border-radius: 50%;
+  margin-right: 8px;
+} */
+.box1{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.box1:before, .box1:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.box1:before {left: 10px;}
+.box1:after {right: 10px;}
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+.p6 {
+  margin:auto;
+	max-width: 400px;
+	width: 90%;
+}
+.p6 th,
+.p6 td {
+	display: block;
+	border: none;
+}
+.p6 th {
+	font-weight: bold;
+	padding: 14px 0 4px;
+}
+.p6 td {
+	background: white;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 1.3rem;
+}
+#nedann th {
+  font-size:0,8rem;
+
+}
+
+table th {
+  border-bottom: solid 2px #fb5144;
+  padding: 10px 0;
+}
+
+table td {
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+section h1 {
+  margin-bottom: 12px;
+}
+
+section p {
+  margin-bottom: 40px;
+}
+
+footer {
+  padding: 40px;
+  background-color: #070606;
+  color: rgb(186, 111, 96);
+}
+
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+  }
+
+  header ul {
+    margin-top: 0;
+  }
+}
+
+@media all and (min-width: 1025px) {
+  #wrap {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+}
